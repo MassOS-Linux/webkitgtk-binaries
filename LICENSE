@@ -1,3 +1,11 @@
+This repo's script is licensed under the CC0 1.0 Universal license (see below).
+
+The binaries produced from this script will be licensed under the same license
+as WebKitGTK, which can be found at "usr/share/licenses/webkitgtk/LICENSE" in
+the package tarball.
+
+===============================================================================
+
 Creative Commons Legal Code
 
 CC0 1.0 Universal
