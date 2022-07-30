@@ -11,7 +11,7 @@ workdir="$(pwd)/workdir"
 test ! -e "${workdir}" || (echo "Remove existing directory ${workdir} first." >&2; exit 1)
 mkdir -p "${workdir}"; cd "${workdir}"
 
-export CFLAGS="-w -Os -pipe" CXXFLAGS="-w -Os -pipe"
+unset CFLAGS CXXFLAGS CPPFLAGS LDFLAGS
 
 ICU_VER="$(readlink /usr/lib/libicuuc.so | cut -d. -f3-4)"
 
